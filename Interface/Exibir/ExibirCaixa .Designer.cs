@@ -354,11 +354,13 @@
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(70)))), ((int)(((byte)(80)))));
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(40)))), ((int)(((byte)(80)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Transparent;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Gold;
             this.dgvCaixa.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvCaixa.RowTemplate.Height = 25;
+            this.dgvCaixa.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvCaixa.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvCaixa.Size = new System.Drawing.Size(1326, 454);
+            this.dgvCaixa.Size = new System.Drawing.Size(1326, 460);
             this.dgvCaixa.TabIndex = 100;
             // 
             // dataGridViewTextBoxColumn1

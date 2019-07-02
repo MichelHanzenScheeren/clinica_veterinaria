@@ -545,6 +545,7 @@
             this.dgvContas.EnableHeadersVisualStyles = false;
             this.dgvContas.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(40)))), ((int)(((byte)(80)))));
             this.dgvContas.Location = new System.Drawing.Point(21, 6);
+            this.dgvContas.MultiSelect = false;
             this.dgvContas.Name = "dgvContas";
             this.dgvContas.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -556,14 +557,18 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvContas.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvContas.RowHeadersVisible = false;
+            this.dgvContas.RowHeadersWidth = 50;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(70)))), ((int)(((byte)(80)))));
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(40)))), ((int)(((byte)(80)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Transparent;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Gold;
             this.dgvContas.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvContas.RowTemplate.Height = 25;
+            this.dgvContas.RowTemplate.ReadOnly = true;
+            this.dgvContas.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvContas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvContas.Size = new System.Drawing.Size(1337, 444);
+            this.dgvContas.Size = new System.Drawing.Size(1322, 472);
             this.dgvContas.TabIndex = 98;
             // 
             // Column2

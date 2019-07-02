@@ -276,8 +276,8 @@ namespace Persistencia.Controle
                 new Conta { ContaID = 12, Tipo = "Entrada", Categoria = "Cirurgia", Data_Inicio = DateTime.Parse("29/06/2019 20:12:50"), Data_Vencimento = DateTime.Parse("28/07/2019 00:00:00"), Total = 350, ValorPago = 350, Parcelas = 4, MetodoPagamento = "A Prazo - Dinheiro", CadastroID = 1 },
                 new Conta { ContaID = 13, Tipo = "Entrada", Categoria = "Internamento", Data_Inicio = DateTime.Parse("30/06/2019 20:19:45"), Data_Vencimento = DateTime.Parse("28/07/2019 00:00:00"), Total = 850, ValorPago = 650, Parcelas = 1, MetodoPagamento = "À Vista - Dinheiro", CadastroID = 3},
                 new Conta { ContaID = 14, Tipo = "Entrada", Categoria = "Internamento", Data_Inicio = DateTime.Parse("30/06/2019 20:21:32"), Data_Vencimento = DateTime.Parse("28/07/2019 00:00:00"), Total = 700.5, ValorPago = 550, Parcelas = 3, MetodoPagamento = "A Prazo - Cartão", CadastroID = 3},
-                new Conta { ContaID = 15, Tipo = "Saída", Categoria = "Salário", Data_Inicio = DateTime.Parse("02/06/2019 23:17:04"), Data_Vencimento = DateTime.Parse("28/07/2019 00:00:00"), Total = 450, ValorPago = 450, Parcelas = 1, MetodoPagamento = "À Vista - Dinheiro", CadastroID = 7 },
-                new Conta { ContaID = 16, Tipo = "Saída", Categoria = "Salário", Data_Inicio = DateTime.Parse("02/06/2019 23:18:01"), Data_Vencimento = DateTime.Parse("28/07/2019 00:00:00"), Total = 500, ValorPago = 500, Parcelas = 1, MetodoPagamento = "À Vista - Cartão", CadastroID = 8 }
+                new Conta { ContaID = 15, Tipo = "Saída", Categoria = "Salário", Data_Inicio = DateTime.Parse("02/07/2019 23:17:04"), Data_Vencimento = DateTime.Parse("28/07/2019 00:00:00"), Total = 450, ValorPago = 450, Parcelas = 1, MetodoPagamento = "À Vista - Dinheiro", CadastroID = 7 },
+                new Conta { ContaID = 16, Tipo = "Saída", Categoria = "Salário", Data_Inicio = DateTime.Parse("02/07/2019 23:18:01"), Data_Vencimento = DateTime.Parse("28/07/2019 00:00:00"), Total = 500, ValorPago = 500, Parcelas = 1, MetodoPagamento = "À Vista - Cartão", CadastroID = 8 }
             );
 
             modelBuilder.Entity<Atendimento>().HasData
@@ -329,7 +329,7 @@ namespace Persistencia.Controle
                 new Caixa { CaixaID = 13, Data = DateTime.Parse("30/06/2019 21:58:52"), Tipo = "Entrada", Categoria = "Internamento", Valor = 350, Saldo = 2180.5, ContaID = 14},
                 new Caixa { CaixaID = 14, Data = DateTime.Parse("30/06/2019 21:58:52"), Tipo = "Entrada", Categoria = "Internamento", Valor = 200, Saldo = 2380.5, ContaID = 14},
                 new Caixa { CaixaID = 15, Data = DateTime.Parse("01/07/2019 21:59:32"), Tipo = "Entrada", Categoria = "Internamento", Valor = 200, Saldo = 2580.5, ContaID = 13},
-                new Caixa { CaixaID = 16, Data = DateTime.Parse("02/07/2019 21:59:32"), Tipo = "Entrada", Categoria = "Cirurgia", Valor = 200, Saldo = 2780.5, ContaID = 11},
+                new Caixa { CaixaID = 16, Data = DateTime.Parse("01/07/2019 21:59:32"), Tipo = "Entrada", Categoria = "Cirurgia", Valor = 200, Saldo = 2780.5, ContaID = 11},
                 new Caixa { CaixaID = 17, Data = DateTime.Parse("02/07/2019 23:17:04"), Tipo = "Saída", Categoria = "Salário", Valor = 450, Saldo = 2330.5, ContaID = 15 },
                 new Caixa { CaixaID = 18, Data = DateTime.Parse("02/07/2019 23:18:01"), Tipo = "Saída", Categoria = "Salário", Valor = 500, Saldo = 1830.5, ContaID = 16 }
             );

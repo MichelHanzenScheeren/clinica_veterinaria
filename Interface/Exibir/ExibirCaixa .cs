@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 
@@ -63,11 +64,17 @@ namespace Interface
                 dgvCaixa.Rows[contLinha].Cells[5].Value = item.Valor;
                 dgvCaixa.Rows[contLinha].Cells[6].Value = item.Saldo;
                 numResultados++;
+
+                if (item.Tipo == "Entrada")
+                    dgvCaixa.Rows[contLinha].DefaultCellStyle.BackColor = Color.DarkCyan;
+                else
+                    dgvCaixa.Rows[contLinha].DefaultCellStyle.BackColor = Color.Firebrick;
             }
             if(numResultados == 0)
                 dgvCaixa.Rows[0].Cells[0].Value = "NENHUM REGISTRO ENCONTRADO...";
 
             dgvCaixa.AutoResizeColumns();
+            dgvCaixa.ClearSelection();
         }
 
         private void BtnExcluir_Click(object sender, EventArgs e)

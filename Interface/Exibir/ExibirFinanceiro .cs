@@ -6,6 +6,7 @@ using Servico.Geral;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 
@@ -133,12 +134,20 @@ namespace Interface
                 dgvContas.Rows[contLinha].Cells[6].Value = item.Total;
                 dgvContas.Rows[contLinha].Cells[7].Value = item.ValorPago;
                 numResultados++;
+
+                if (item.Tipo == "Entrada")
+                    dgvContas.Rows[contLinha].DefaultCellStyle.BackColor = Color.DarkCyan;
+                else
+                    dgvContas.Rows[contLinha].DefaultCellStyle.BackColor = Color.Firebrick;
             }
             if(numResultados == 0)
                 dgvContas.Rows[0].Cells[0].Value = "NENHUM REGISTRO ENCONTRADO...";
 
             dgvContas.AutoResizeColumns();
+            dgvContas.ClearSelection();
         }
+
+
 
         private void BtnPagamentos_Click(object sender, EventArgs e)
         {
