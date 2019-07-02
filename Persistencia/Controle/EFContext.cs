@@ -45,7 +45,7 @@ namespace Persistencia.Controle
             };
             modelBuilder.Entity<Endereco>().HasData(endeco1);
 
-            var cadastro1 = new Cliente("Michel Hanzen Scheeren", "Masculino", "122.719.329-72", "michelhanzenscheeren@gmail.com", "+55(45)99969-9760", new DateTime(2000, 03, 09), 1)
+            var cadastro1 = new Cliente("Marcos Antônio", "Masculino", "122.148.874-70", "marcosantonio@gmail.com", "+55(45)98874-1245", new DateTime(2000, 03, 09), 1)
             {
                 ID = 1,
                 DataCadastro = DateTime.Parse("2019/06/15 08:58")
@@ -119,7 +119,7 @@ namespace Persistencia.Controle
             };
             modelBuilder.Entity<Endereco>().HasData(endeco6);
 
-            var cAdastro6 = new Veterinario("Robson Cruzeiro", "MAsculino", "120.742.124-70", "robsoncruzeiro@gmail.com", "+55(45)99954-1245", new DateTime(1998, 04, 17), 6)
+            var cAdastro6 = new Veterinario("Robson Cruzeiro", "Masculino", "120.742.124-70", "robsoncruzeiro@gmail.com", "+55(45)99954-1245", new DateTime(1998, 04, 17), 6)
             {
                 ID = 6,
                 Crmv = "852014",
