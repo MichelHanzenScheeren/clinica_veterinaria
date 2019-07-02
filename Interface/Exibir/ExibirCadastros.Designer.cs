@@ -1,0 +1,551 @@
+﻿namespace Interface
+{
+    partial class ExibirCadastros
+    {
+        /// <summary>
+        /// Variável de designer necessária.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Limpar os recursos que estão sendo usados.
+        /// </summary>
+        /// <param name="disposing">true se for necessário descartar os recursos gerenciados; caso contrário, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Código gerado pelo Windows Form Designer
+
+        /// <summary>
+        /// Método necessário para suporte ao Designer - não modifique 
+        /// o conteúdo deste método com o editor de código.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ExibirCadastros));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.Top = new System.Windows.Forms.Panel();
+            this.btnAlterar = new System.Windows.Forms.Button();
+            this.btnVoltar = new System.Windows.Forms.Button();
+            this.btnMinimizar = new System.Windows.Forms.Button();
+            this.btnFechar = new System.Windows.Forms.Button();
+            this.ttFechar = new System.Windows.Forms.ToolTip(this.components);
+            this.ttAlterarTamanho = new System.Windows.Forms.ToolTip(this.components);
+            this.ttMinimizar = new System.Windows.Forms.ToolTip(this.components);
+            this.ttVOLTAR = new System.Windows.Forms.ToolTip(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.cbCriterio = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.cbPesquisa = new System.Windows.Forms.ComboBox();
+            this.btnPesquisar = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.cbTipo = new System.Windows.Forms.ComboBox();
+            this.Tipo = new System.Windows.Forms.Label();
+            this.btnExibirTodos = new System.Windows.Forms.Button();
+            this.pnlBotoes = new System.Windows.Forms.Panel();
+            this.pnlInferior = new System.Windows.Forms.Panel();
+            this.btnNovo = new System.Windows.Forms.Button();
+            this.btnInformacoes = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.dgvCadastros = new System.Windows.Forms.DataGridView();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ttPesquisar = new System.Windows.Forms.ToolTip(this.components);
+            this.ttExibirTodos = new System.Windows.Forms.ToolTip(this.components);
+            this.Top.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.pnlBotoes.SuspendLayout();
+            this.pnlInferior.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCadastros)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // Top
+            // 
+            this.Top.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.Top.Controls.Add(this.btnAlterar);
+            this.Top.Controls.Add(this.btnVoltar);
+            this.Top.Controls.Add(this.btnMinimizar);
+            this.Top.Controls.Add(this.btnFechar);
+            this.Top.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Top.Location = new System.Drawing.Point(0, 0);
+            this.Top.Name = "Top";
+            this.Top.Size = new System.Drawing.Size(1370, 61);
+            this.Top.TabIndex = 0;
+            this.Top.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Top_MouseDown);
+            // 
+            // btnAlterar
+            // 
+            this.btnAlterar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAlterar.FlatAppearance.BorderSize = 0;
+            this.btnAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlterar.ForeColor = System.Drawing.Color.White;
+            this.btnAlterar.Image = ((System.Drawing.Image)(resources.GetObject("btnAlterar.Image")));
+            this.btnAlterar.Location = new System.Drawing.Point(1251, 3);
+            this.btnAlterar.Name = "btnAlterar";
+            this.btnAlterar.Size = new System.Drawing.Size(55, 55);
+            this.btnAlterar.TabIndex = 10;
+            this.btnAlterar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ttAlterarTamanho.SetToolTip(this.btnAlterar, "ALTERAR TAMANHO");
+            this.btnAlterar.Click += new System.EventHandler(this.BtnAlterar_Click);
+            // 
+            // btnVoltar
+            // 
+            this.btnVoltar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnVoltar.FlatAppearance.BorderSize = 0;
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltar.ForeColor = System.Drawing.Color.White;
+            this.btnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltar.Image")));
+            this.btnVoltar.Location = new System.Drawing.Point(3, 3);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(55, 55);
+            this.btnVoltar.TabIndex = 9;
+            this.btnVoltar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ttVOLTAR.SetToolTip(this.btnVoltar, "VOLTAR");
+            this.btnVoltar.Click += new System.EventHandler(this.BtnVoltar_Click);
+            // 
+            // btnMinimizar
+            // 
+            this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMinimizar.FlatAppearance.BorderSize = 0;
+            this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimizar.ForeColor = System.Drawing.Color.White;
+            this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
+            this.btnMinimizar.Location = new System.Drawing.Point(1190, 3);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(55, 55);
+            this.btnMinimizar.TabIndex = 8;
+            this.btnMinimizar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ttMinimizar.SetToolTip(this.btnMinimizar, "MINIMIZAR");
+            this.btnMinimizar.Click += new System.EventHandler(this.BtnMinimizar_Click);
+            // 
+            // btnFechar
+            // 
+            this.btnFechar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnFechar.FlatAppearance.BorderSize = 0;
+            this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFechar.ForeColor = System.Drawing.Color.White;
+            this.btnFechar.Image = ((System.Drawing.Image)(resources.GetObject("btnFechar.Image")));
+            this.btnFechar.Location = new System.Drawing.Point(1312, 3);
+            this.btnFechar.Name = "btnFechar";
+            this.btnFechar.Size = new System.Drawing.Size(55, 55);
+            this.btnFechar.TabIndex = 3;
+            this.btnFechar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ttFechar.SetToolTip(this.btnFechar, "FECHAR PROGRAMA");
+            this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.BtnFechar_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.panel1.Controls.Add(this.panel7);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 61);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1370, 94);
+            this.panel1.TabIndex = 1;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.panel7.Controls.Add(this.label1);
+            this.panel7.Controls.Add(this.panel2);
+            this.panel7.Controls.Add(this.cbPesquisa);
+            this.panel7.Controls.Add(this.btnPesquisar);
+            this.panel7.Controls.Add(this.label3);
+            this.panel7.Controls.Add(this.panel6);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(838, 94);
+            this.panel7.TabIndex = 101;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(478, 15);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(103, 22);
+            this.label1.TabIndex = 96;
+            this.label1.Text = "PESQUISA:";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.panel2.Controls.Add(this.cbCriterio);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel2.Location = new System.Drawing.Point(261, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(215, 94);
+            this.panel2.TabIndex = 102;
+            // 
+            // cbCriterio
+            // 
+            this.cbCriterio.BackColor = System.Drawing.Color.White;
+            this.cbCriterio.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbCriterio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbCriterio.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbCriterio.ForeColor = System.Drawing.Color.Black;
+            this.cbCriterio.FormattingEnabled = true;
+            this.cbCriterio.Items.AddRange(new object[] {
+            "ID",
+            "Nome",
+            "CPF",
+            "Endereço"});
+            this.cbCriterio.Location = new System.Drawing.Point(12, 40);
+            this.cbCriterio.Name = "cbCriterio";
+            this.cbCriterio.Size = new System.Drawing.Size(193, 27);
+            this.cbCriterio.TabIndex = 97;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(8, 15);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(99, 22);
+            this.label4.TabIndex = 95;
+            this.label4.Text = "CRITÉRIO:";
+            // 
+            // cbPesquisa
+            // 
+            this.cbPesquisa.BackColor = System.Drawing.Color.White;
+            this.cbPesquisa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.Simple;
+            this.cbPesquisa.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cbPesquisa.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbPesquisa.ForeColor = System.Drawing.Color.Black;
+            this.cbPesquisa.FormattingEnabled = true;
+            this.cbPesquisa.Items.AddRange(new object[] {
+            "Cliente",
+            "Médico",
+            "Funcionário"});
+            this.cbPesquisa.Location = new System.Drawing.Point(482, 40);
+            this.cbPesquisa.Name = "cbPesquisa";
+            this.cbPesquisa.Size = new System.Drawing.Size(268, 28);
+            this.cbPesquisa.TabIndex = 100;
+            // 
+            // btnPesquisar
+            // 
+            this.btnPesquisar.AccessibleName = "";
+            this.btnPesquisar.FlatAppearance.BorderSize = 0;
+            this.btnPesquisar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPesquisar.ForeColor = System.Drawing.Color.White;
+            this.btnPesquisar.Image = ((System.Drawing.Image)(resources.GetObject("btnPesquisar.Image")));
+            this.btnPesquisar.Location = new System.Drawing.Point(756, 25);
+            this.btnPesquisar.Name = "btnPesquisar";
+            this.btnPesquisar.Size = new System.Drawing.Size(58, 57);
+            this.btnPesquisar.TabIndex = 99;
+            this.btnPesquisar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.ttPesquisar.SetToolTip(this.btnPesquisar, "PESQUISAR");
+            this.btnPesquisar.Click += new System.EventHandler(this.BtnPesquisar_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(324, 18);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(78, 20);
+            this.label3.TabIndex = 96;
+            this.label3.Text = "Pesquisa:";
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.panel6.Controls.Add(this.cbTipo);
+            this.panel6.Controls.Add(this.Tipo);
+            this.panel6.Controls.Add(this.btnExibirTodos);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel6.Location = new System.Drawing.Point(0, 0);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(261, 94);
+            this.panel6.TabIndex = 0;
+            // 
+            // cbTipo
+            // 
+            this.cbTipo.BackColor = System.Drawing.Color.White;
+            this.cbTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbTipo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbTipo.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbTipo.ForeColor = System.Drawing.Color.Black;
+            this.cbTipo.FormattingEnabled = true;
+            this.cbTipo.Items.AddRange(new object[] {
+            "Cliente",
+            "Veterinario",
+            "Funcionario"});
+            this.cbTipo.Location = new System.Drawing.Point(22, 40);
+            this.cbTipo.Name = "cbTipo";
+            this.cbTipo.Size = new System.Drawing.Size(166, 27);
+            this.cbTipo.TabIndex = 97;
+            // 
+            // Tipo
+            // 
+            this.Tipo.AutoSize = true;
+            this.Tipo.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tipo.ForeColor = System.Drawing.Color.White;
+            this.Tipo.Location = new System.Drawing.Point(18, 15);
+            this.Tipo.Name = "Tipo";
+            this.Tipo.Size = new System.Drawing.Size(56, 22);
+            this.Tipo.TabIndex = 95;
+            this.Tipo.Text = "TIPO:";
+            // 
+            // btnExibirTodos
+            // 
+            this.btnExibirTodos.FlatAppearance.BorderSize = 0;
+            this.btnExibirTodos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExibirTodos.ForeColor = System.Drawing.Color.White;
+            this.btnExibirTodos.Image = ((System.Drawing.Image)(resources.GetObject("btnExibirTodos.Image")));
+            this.btnExibirTodos.Location = new System.Drawing.Point(194, 18);
+            this.btnExibirTodos.Name = "btnExibirTodos";
+            this.btnExibirTodos.Size = new System.Drawing.Size(61, 57);
+            this.btnExibirTodos.TabIndex = 101;
+            this.btnExibirTodos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ttExibirTodos.SetToolTip(this.btnExibirTodos, "EXIBIR TODOS");
+            this.btnExibirTodos.Click += new System.EventHandler(this.BtnExibirTodos_Click);
+            // 
+            // pnlBotoes
+            // 
+            this.pnlBotoes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.pnlBotoes.Controls.Add(this.pnlInferior);
+            this.pnlBotoes.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlBotoes.Location = new System.Drawing.Point(0, 649);
+            this.pnlBotoes.Name = "pnlBotoes";
+            this.pnlBotoes.Size = new System.Drawing.Size(1370, 81);
+            this.pnlBotoes.TabIndex = 7;
+            // 
+            // pnlInferior
+            // 
+            this.pnlInferior.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pnlInferior.Controls.Add(this.btnNovo);
+            this.pnlInferior.Controls.Add(this.btnInformacoes);
+            this.pnlInferior.Location = new System.Drawing.Point(445, 3);
+            this.pnlInferior.Name = "pnlInferior";
+            this.pnlInferior.Size = new System.Drawing.Size(480, 78);
+            this.pnlInferior.TabIndex = 0;
+            // 
+            // btnNovo
+            // 
+            this.btnNovo.AccessibleName = "";
+            this.btnNovo.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnNovo.FlatAppearance.BorderSize = 0;
+            this.btnNovo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNovo.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNovo.ForeColor = System.Drawing.Color.White;
+            this.btnNovo.Image = ((System.Drawing.Image)(resources.GetObject("btnNovo.Image")));
+            this.btnNovo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNovo.Location = new System.Drawing.Point(240, 0);
+            this.btnNovo.Name = "btnNovo";
+            this.btnNovo.Size = new System.Drawing.Size(240, 78);
+            this.btnNovo.TabIndex = 105;
+            this.btnNovo.Text = "     ADICIONAR";
+            this.btnNovo.Click += new System.EventHandler(this.BtnNovo_Click_1);
+            // 
+            // btnInformacoes
+            // 
+            this.btnInformacoes.AccessibleName = "";
+            this.btnInformacoes.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnInformacoes.FlatAppearance.BorderSize = 0;
+            this.btnInformacoes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInformacoes.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInformacoes.ForeColor = System.Drawing.Color.White;
+            this.btnInformacoes.Image = ((System.Drawing.Image)(resources.GetObject("btnInformacoes.Image")));
+            this.btnInformacoes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInformacoes.Location = new System.Drawing.Point(0, 0);
+            this.btnInformacoes.Name = "btnInformacoes";
+            this.btnInformacoes.Size = new System.Drawing.Size(240, 78);
+            this.btnInformacoes.TabIndex = 102;
+            this.btnInformacoes.Text = "       INFORMAÇÕES";
+            this.btnInformacoes.Click += new System.EventHandler(this.BtnInformacoes_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.panel3.Controls.Add(this.dgvCadastros);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(0, 155);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1370, 494);
+            this.panel3.TabIndex = 8;
+            // 
+            // dgvCadastros
+            // 
+            this.dgvCadastros.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvCadastros.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvCadastros.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.dgvCadastros.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvCadastros.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(50)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(50)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvCadastros.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvCadastros.ColumnHeadersHeight = 35;
+            this.dgvCadastros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dgvCadastros.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column2,
+            this.Column3,
+            this.Column1,
+            this.Column5,
+            this.Column6});
+            this.dgvCadastros.EnableHeadersVisualStyles = false;
+            this.dgvCadastros.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(40)))), ((int)(((byte)(80)))));
+            this.dgvCadastros.Location = new System.Drawing.Point(22, 16);
+            this.dgvCadastros.Name = "dgvCadastros";
+            this.dgvCadastros.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(50)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvCadastros.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvCadastros.RowHeadersVisible = false;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(70)))), ((int)(((byte)(80)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(40)))), ((int)(((byte)(80)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
+            this.dgvCadastros.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvCadastros.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvCadastros.Size = new System.Drawing.Size(1320, 450);
+            this.dgvCadastros.TabIndex = 98;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "ID";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            this.Column2.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "NOME";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "CPF";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "ENDEREÇO";
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "TELEFONE";
+            this.Column6.Name = "Column6";
+            this.Column6.ReadOnly = true;
+            // 
+            // ExibirCadastros
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ClientSize = new System.Drawing.Size(1370, 730);
+            this.ControlBox = false;
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.pnlBotoes);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.Top);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "ExibirCadastros";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.ExibirCadastros_Load);
+            this.Top.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.pnlBotoes.ResumeLayout(false);
+            this.pnlInferior.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCadastros)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel Top;
+        private System.Windows.Forms.Button btnFechar;
+        private System.Windows.Forms.Button btnMinimizar;
+        private System.Windows.Forms.Button btnVoltar;
+        private System.Windows.Forms.Button btnAlterar;
+        private System.Windows.Forms.ToolTip ttAlterarTamanho;
+        private System.Windows.Forms.ToolTip ttVOLTAR;
+        private System.Windows.Forms.ToolTip ttMinimizar;
+        private System.Windows.Forms.ToolTip ttFechar;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.ComboBox cbCriterio;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnExibirTodos;
+        private System.Windows.Forms.ComboBox cbPesquisa;
+        private System.Windows.Forms.Button btnPesquisar;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.ComboBox cbTipo;
+        private System.Windows.Forms.Label Tipo;
+        private System.Windows.Forms.Panel pnlBotoes;
+        private System.Windows.Forms.Panel pnlInferior;
+        private System.Windows.Forms.Button btnInformacoes;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.DataGridView dgvCadastros;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnNovo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.ToolTip ttPesquisar;
+        private System.Windows.Forms.ToolTip ttExibirTodos;
+    }
+}
+
